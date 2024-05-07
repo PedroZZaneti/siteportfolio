@@ -49,10 +49,9 @@ ul li a {
     padding: 15px;
 }
 
-#content {
+#cont-sobremim {
     width: 100%;
-    height: 800px;
-    
+    height: 1200px;
 }
 
 #content-left {
@@ -95,16 +94,95 @@ ul li a {
 #content-right {
     margin-right: 130px;
     float: right;
-    width: 30%;
+    width: 40%;
 }
 
 #eu {
     width: 400px;
     min-height: 400px;
     margin-top: 220px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     border-radius: 25px;
+    margin-left: 150px;
 
 }
+
+#quali {
+    height: 350px;
+    width: 600px;
+    margin-top: 185px;
+    margin-left: 50px;
+    right: 200px;
+    border-radius: 25px;
+}
+
+#divisoria-2 {
+    height: 1000px;
+    width: 100%;
+}
+
+#link-port {
+    height: 150px;
+    width: 100%;
+}
+
+#portifolio {
+
+    color: #3C8F3A;
+    font-size: 64px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    
+}
+
+#cont-port {
+
+    width: 100%;
+
+
+}
+
+#cont-img {
+
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+#cont-img img  {
+
+    width: 350px;
+    height: 250px;
+    margin: 100px;
+
+ 
+}
+
+#txt-port {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 250px;
+
+}
+
+#txt-port h3 {
+
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 350px;
+    height: 250px;
+}
+
+
