@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -17,7 +17,6 @@ header {
     height: 100px;
     background-color: #110631;
     display: flex;
-    
     align-items: center;
 }
 
@@ -79,8 +78,8 @@ ul li a {
 #txt {
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 26px;
+    margin-top: 10px;
 }
 
 #habilidades {
@@ -88,7 +87,7 @@ ul li a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 64px;
     font-weight: bold;
-    margin-top: 160px;
+    margin-top: 100px;
 }
 
 #content-right {
@@ -119,7 +118,7 @@ ul li a {
 }
 
 #divisoria-2 {
-    height: 1000px;
+    height: 700px;
     width: 100%;
 }
 
@@ -132,7 +131,7 @@ ul li a {
 
     color: #3C8F3A;
     font-size: 64px;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     height: 100px;
     width: 100%;
@@ -179,10 +178,139 @@ ul li a {
 #txt-port h3 {
 
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     width: 350px;
     height: 250px;
+}
+
+
+#img-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.card-portifolio {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 350px;
+}
+
+.quadro {
+
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.quadro img {
+    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.card-portifolio h3 {
+
+    font-size: 25px;
+}
+
+#divisoria-3 {
+    
+    width: 100%;
+    height: 1250px;
+}
+
+#link-hobbies {
+
+    height: 150px;
+    width: 100%;
+
+}
+
+#hobbies-container {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#cont-hobbies {
+
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+
+#hobbies {
+
+    background-color: #3C8F3A;
+    color: black;
+    font-size: 24px;
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    line-height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#hobbies-albuns {
+
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 600px;
+    line-height: 180px;
+
+}
+
+#hobbies-albuns img {
+
+    height: 180px;
+    width: 180px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 5px;
+    
+
+}
+
+footer {
+
+    height: 110px;
+    width: 100%;
+    background-color: #1e1e1e;
+    align-items: center;
+    
+    
+}
+
+#cont-footer {
+
+    width: 90%;
+    height: 110px;
+    margin-left: 5%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    color: #5FC75D;
+    display: flex;
+
+    
 }
 
 
